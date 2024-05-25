@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.c {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main-anime {
+
+    font-size: 70px;
+    text-align: center;
+    background-image: url("https://st2.depositphotos.com/3146979/7251/v/450/depositphotos_72519919-stock-illustration-vector-polygonal-background-pattern-triangular.jpg");
+    background-clip: text;
+    color: transparent;
+    animation: move 1s infinite;
+
+}
+
+@keyframes move {
+    100% {
+        background-position-x: 500px;
+    }
+}
+
+.text-bg-color {
+    margin: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+
+.trail {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 5px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+
+}
+
+.background-banner {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-image: url("https://res.cloudinary.com/dv5lcy4na/image/upload/v1716206008/WhatsApp_Image_2024-05-20_at_11.03.04_txke0q.jpg");
+    background-clip: box;
+    color: transparent;
+    animation: move 10s infinite;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes move {
+    100% {
+        background-position-x: 500px;
+    }
+}
+
+
+
+.main-heading {
+    font-weight: bold;
+    text-align: center;
+    color: #A020F0;
+}
+
+.banner-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 0.8;
+}
+
+.banner-button {
+
+    background-color: #A020F0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+.banner-button:hover {
+    background-color: #8a5bab;
+    transform: scale(1.03);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.banner-btn {
+    text-align: center;
+    font-family: Georgia;
+}
+
+.background-second-page {
+
+    background-image: url("https://w0.peakpx.com/wallpaper/820/814/HD-wallpaper-purple-dots-pretty-dots-black-beautiful-collage-abstract-cool-purple-texture-beauty-thumbnail.jpg");
+    background-clip: box;
+    color: transparent;
+    animation: second 25s infinite;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-size: cover;
+
+
+}
+
+@keyframes second {
+    100% {
+        background-position-y: 500px;
+    }
+}
+
+.second-page-button {
+    background-color: #A020F0;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+    width: 130px;
+    margin-bottom: 15px;
+    margin: 5px;
+}
+
+.second-page-button:hover {
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border-color: white;
+    transform: scale(1.03);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.second-page-heading {
+    color: white;
+    font-family: Sans-Serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.goback-btn {
+    margin: 25px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-family: "Sans-Serif";
+}
+
+.goback-btn:hover {
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border-color: white;
+    transform: scale(1.03);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+
+.woods-bg {
+    background-image: url("https://cdn-p300.americantowns.com/img/article/fl-movie-theaters-1.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+
+.wood-heading {
+    color: white;
+    text-align: center;
+    font-family: Sans-Serif;
+    font-weight: bold;
+    padding: 10px;
+    font-family: Georgia;
+
+}
+
+.wood-button {
+    background-color: #A020F0;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.2s ease-in-out;
+    width: 100px;
+    margin-bottom: 15px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.wood-button:hover {
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border-color: white;
+    transform: scale(1.03);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.wood-list-card {
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
+.wood-movies {
+    text-align: center;
+    color: white;
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+summary {
+    color: purple;
+}
+
+.wood-movie-image {
+    width: 100px;
+    height: 150px;
+}
+
+.wood-movie-details {
+    color: white;
+    font: Georgia;
+    font-weight: 0;
+}
+
+.trailer-page-button {
+    background-color: purple;
+    color: white;
+    border-width: 0px;
+    border-radius: 10px;
+    font-family: Georgia;
+
+}

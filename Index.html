@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <title>Trailer Trove</title>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="background-banner">
+            <h1 class="trail">TRAILER TROVE</h1>
+            <div class="text-bg-color">
+                <div class="banner-btn">
+                    <div class="banner-box">
+                        <h2>The <span class="main-heading">List Of Trailers</span> Of Movies That is Going In Theatres</h2>
+                        <p>One Page Destinaion For All Movie Lovers </p>
+                        <p>What Are You Waiting For Go Pick One And Watch In Theatres</p>
+                    </div>
+                    <div>
+                        <button class="second-page-button" onclick="display('sectionchoose')">Let's Go</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionchoose">
+
+        <div class="background-second-page">
+            <h3 class="second-page-heading">Choose the film industry you want</h3>
+            <div class="buttons-align">
+                <div>
+                    <button class="second-page-button" onclick="display('sectionbollywood')">BOLLYWOOD</button>
+                </div>
+                <div>
+                    <button class="second-page-button" onclick="display('sectiontollywood')">TOLLYWOOD</button>
+                </div>
+                <div>
+                    <button class="second-page-button" onclick="display('sectionmollywood')">MOLLYWOOD</button>
+                </div>
+                <div>
+                    <button class="second-page-button" onclick="display('sectionkollywood')"> KOLLYWOOD</button>
+                </div>
+            </div>
+            <button class="goback-btn" onclick="display('sectionhome')">Go Back</button>
+        </div>
+
+    </div>
+    <div id="sectionbollywood">
+
+        <div class="woods-bg">
+            <h3 class="wood-heading">WATCH, DECIDE AND <br /> ENJOY IT </h3>
+            <button class="wood-button">Watch Now</button>
+        </div>
+
+        <div class="wood-list-card">
+            <h4 class="wood-heading">The List Of Movies That are Running In Theatres</h4>
+            <div class="wood-movies">
+                <div>
+                    <details>
+                        <summary class="wood-movies">SRIKANTH</summary>
+                        <div>
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Srikanth_film_poster.jpg/220px-Srikanth_film_poster.jpg" class="wood-movie-image" />
+                            <p class="wood-movie-details pt-2">Directed By: Tushar Hiranandani</p>
+                            <P class="wood-movie-details">Produced By:
+                                Bhushan Kumar,<br />
+                                Krishan Kumar,<br />
+                                Nidhi Parmar Hiranandani</P>
+                            <p class="wood-movie-details">Cast:
+                                Rajkummar Rao,<br />
+                                Jyothika, <br />
+                                Alaya F,<br />
+                                Sharad Kelkar</p>
+                            <p class="wood-movie-details">Rating: 8.1/10 -> IMDB</p>
+                            <button class="second-page-button" onclick="display('sectionbtrailerone')">Trailer</button>
+                        </div>
+                    </details>
+                </div>
+
+                <div>
+                    <details>
+                        <summary class="wood-movies">CREW</summary>
+                        <div>
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Crew_2024_film_poster.jpeg/220px-Crew_2024_film_poster.jpeg" class="wood-movie-image" />
+                            <p class="wood-movie-details pt-2">Directed By: Rajesh A Krishnan</p>
+                            <P class="wood-movie-details">Produced By:
+                                Ekta Kapoor,<br />
+                                Rheaa Kapoor,<br />
+                                Anil Kapoor, <br />
+                                Dig Vijay Purohit
+                            </P>
+                            <p class="wood-movie-details">Cast:
+                                Tabu,<br />
+                                Kareena Kapoor, <br />
+                                Kriti Sanon</p>
+                            <p class="wood-movie-details">Rating: 6.4/10 -> IMDB</p>
+                            <button class="second-page-button" onclick="display('sectionbtrailertwo')">Trailer</button>
+                        </div>
+                    </details>
+                </div>
+
+                <div>
+                    <details>
+                        <summary class="wood-movies">THE FALL GUY</summary>
+                        <div>
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/The_Fall_Guy_%282024%29_poster.jpg/220px-The_Fall_Guy_%282024%29_poster.jpg" class="wood-movie-image" />
+                            <p class="wood-movie-details pt-2">Directed By:David Leitch</p>
+                            <P class="wood-movie-details">Produced By:
+                                Kelly McCormick,<br />
+                                David Leitch,<br />
+                                Ryan Gosling, <br />
+                                Guymon Patrick Casady
+                            </P>
+                            <p class="wood-movie-details">Cast:
+                                Ryan Gosling,<br />
+                                Emily Olivia Laura Blunt, <br />
+                                Aaron Perry Taylor-Johnson</p>
+                            <p class="wood-movie-details">Rating: 7.3/10 -> IMDB</p>
+                            <button class="second-page-button" onclick="display('sectionbtrailerthree')">Trailer</button>
+                        </div>
+                    </details>
+                </div>
+                <button class="goback-btn" onclick="display('sectionchoose')">Go Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionbtrailerone">
+        <iframe width="100%" height="480" src="https://www.youtube.com/embed/OMeuJP5iBWY" title="SRIKANTH (Official Trailer): RAJKUMMAR RAO | SHARAD, JYOTIKA, ALAYA | TUSHAR H I BHUSHAN K, NIDHI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <button class="trailer-page-btn" onclick="display('sectionbollywood')">Go Back</button>
+    </div>
+    <div id="sectionbtrailertwo">
+        <iframe width="100%" height="480" src="https://www.youtube.com/embed/3uvfq4Cu8R8" title="Crew | Trailer | Tabu, Kareena Kapoor Khan, Kriti Sanon, Diljit Dosanjh, Kapil Sharma | March 29" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <button class="trailer-page-btn" onclick="display('sectionbollywood')">Go Back</button>
+    </div>
+    <div id="sectionbtrailerthree">
+        <iframe width="100%" height="480" src="https://www.youtube.com/embed/Pr3VaQyaifI" title="द फॉल गाय (THE FALL GUY) | Official Hindi Trailer 1 (Universal Studios) - HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <button class="trailer-page-btn" onclick="display('sectionbollywood')">Go Back</button>
+    </div>
+
+
+    <div id="sectiontollywood">
+        <div class="woods-bg">
+            <h3 class="wood-heading">WATCH, DECIDE AND <br /> ENJOY IT </h3>
+            <button class="wood-button">Watch Now</button>
+        </div>
+
+        <div class="wood-list-card">
+            <h4 class="wood-heading">The List Of Movies That are Running In Theatres</h4>
+            <div class="wood-movies">
+                <div>
+                    <details>
+                        <summary class="wood-movies">AA OKATI ADAKKU</summary>
+                        <div>
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/Aa_Okkati_Adakku_Poster.jpg/220px-Aa_Okkati_Adakku_Poster.jpg" class="wood-movie-image" />
+                            <p class="wood-movie-details pt-2">Directed By: Malli Ankam</p>
+                            <P class="wood-movie-details">Produced By: Rajiv Chilaka</P>
+                            <p class="wood-movie-details">Cast:
+                                Allari Naresh,<br />
+                                Faria Abullah, <br />
+                            </p>
+                            <p class="wood-movie-details">Rating: 7.5/10 -> IMDB</p>
+                            <button class="second-page-button" onclick="display('sectionttrailerone')">Trailer</button>
+                        </div>
+                    </details>
+                </div>
+
+                <div>
+                    <details>
+                        <summary class="wood-movies">KRISHNAMMA</summary>
+                        <div>
+                            <img src="https://m.media-amazon.com/images/M/MV5BYjU4ZmE2NWYtNWI3Zi00OGJiLTg1Y2QtMjc5YWZlYzZiOWNmXkEyXkFqcGdeQXVyMjA1MTA3MjY@._V1_.jpg" class="wood-movie-image" />
+                            <p class="wood-movie-details pt-2">Directed By:V V Gopala Krishna</p>
+                            <P class="wood-movie-details">Produced By:
+                                Krishna Kommalapati
+                            </P>
+                            <p class="wood-movie-details">Cast:
+                                Satya Dev,<br />
+                                Athira Raj, <br />
+                                Archana Iyer</p>
+                            <p class="wood-movie-details">Rating: 6.6/10 -> IMDB</p>
+                            <button class="second-page-button" onclick="display('sectionttrailertwo')">Trailer</button>
+                        </div>
+                    </details>
+                </div>
+
+                <div>
+                    <details>
+                        <summary class="wood-movies">BAAK</summary>
+                        <div>
+                            <img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/baak-et00396335-1714374099.jpg" class="wood-movie-image" />
+                            <p class="wood-movie-details pt-2">Directed By:Sundar C</p>
+                            <P class="wood-movie-details">Produced By:
+                                Kushbhu Sundhar,<br />
+                                Acs Arun Kumar,<br />
+                            </P>
+                            <p class="wood-movie-details">Cast:
+                                Sundar C,<br />
+                                Tamannah Bhatia, <br />
+                                Raasi khanna</p>
+                            <p class="wood-movie-details">Rating: 6.3/10 -> IMDB</p>
+                            <button class="second-page-button" onclick="display('sectionttrailerthree')">Trailer</button>
+                        </div>
+                    </details>
+                </div>
+                <button class="goback-btn" onclick="display('sectionchoose')">Go Back</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="sectionttrailerone">
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/OK4NIfMxdQE" title="Aa Okkati Adakku - Official Trailer | Allari Naresh | Faria | Malli | Gopi Sundar | Rajiv Chilaka" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <button class="trailer-page-btn" onclick="display('sectiontollywood')">Go Back</button>
+    </div>
+    <div id="sectionttrailertwo">
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/3COYvunad5k" title="Krishnamma Movie Official Trailer || Satya Dev || Athira Raji || Koratala Siva || NS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <button class="trailer-page-btn" onclick="display('sectiontollywood')">Go Back</button>
+    </div>
+    <div id="sectionttrailerthree">
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/bjUA_knT4Ms" title="Baak (Telugu) - Official Trailer | Sundar.C, Tamannaah, Raashii Khanna,Hiphop Tamizha | BaakFromMay3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <button class="trailer-page-btn" onclick="display('sectiontollywood')">Go Back</button>
+    </div>
+
+    <div id="sectionmollywood">
+        <div class="woods-bg">
+            <h3 class="wood-heading">WATCH, DECIDE AND <br /> ENJOY IT </h3>
+            <button class="wood-button">Watch Now</button>
+        </div>
+
+        <div class="wood-list-card">
+            <h4 class="wood-heading">The List Of Movies That are Running In Theatres</h4>
+            <div class="wood-movies">
+                <div>
+                    <details>
+                        <summary class="wood-movies">GURUVAYOOR AMBALANADAYIL</summary>
+                        <div>
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Guruvayoor_Ambalanadayil.jpg/220px-Guruvayoor_Ambalanadayil.jpg" class="wood-movie-image" />
+                            <p class="wood-movie-details pt-2">Directed By: Vipin Das</p>
+                            <P class="wood-movie-details">Produced By: Supriya Menon</P>
+                            <p class="wood-movie-details">Cast:
+                                Prithviraj Sukumaran,<br />
+                                Nikhila Vimal, <br />
+                            </p>
+                            <p class="wood-movie-details">Rating: 7.2/10 -> IMDB</p>
+                            <button class="second-page-button" onclick="display('sectionmtrailerone')">Trailer</button>
+                        </div>
+                    </details>
+                </div>
+
+                <div>
+                    <details>
+                        <summary class="wood-movies">SURESHINTEYUM SUMALATHAYUDEYUM</summary>
+                        <div>
+                            <img src="https://m.media-amazon.com/images/M/MV5BOWNkNjZiMmYtNGU3Yi00YTIxLTgxYzItNjc5NWQzNTMwMjAyXkEyXkFqcGdeQXVyMTUzNTgzNzM0._V1_FMjpg_UX1000_.jpg" class="wood-movie-image" />
+                            <p class="wood-movie-details pt-2">Directed By:Ratheesh Balakrishnan Poduval </p>
+                            <P class="wood-movie-details">Produced By:
+                                Krishna Kommalapati
+                            </P>
+                            <p class="wood-movie-details">Cast:
+                                Rajesh Madhavan,<br />
+                                Chitra Nair
+                            </p>
+                            <p class="wood-movie-details">Rating: 7.2/10 -> IMDB</p>
+                            <button class="second-page-button" onclick="display('sectionmtrailertwo')">Trailer</button>
+                        </div>
+                    </details>
+                </div>
+
+                <button class="goback-btn" onclick="display('sectionchoose')">Go Back</button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div id="sectionmtrailerone">
+        <iframe width="868" height="458" src="https://www.youtube.com/embed/IEm9X8yvivk" title="Guruvayoorambala Nadayil - Official Trailer | Prithviraj Sukumaran | Basil Joseph | Vipin Das" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <button class="trailer-page-btn" onclick="display('sectionmollywood')"></button>
+    </div>
+    <div id="sectionmtrailertwo">
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/33YuxGLIO8Y" title="Sureshanteyum Sumalathayudeyum Hrudayahariyaya Pranayakadha - Trailer | Dawn Vincent, RajeshMadhavan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <button class="trailer-page-btn" onclick="display('sectionmollywood')">Go Back</button>
+    </div>
+
+
+    <div id="sectionkollywood">
+        <div class="woods-bg">
+            <h3 class="wood-heading">WATCH, DECIDE AND <br /> ENJOY IT </h3>
+            <button class="wood-button">Watch Now</button>
+        </div>
+
+        <div class="wood-list-card">
+            <h4 class="wood-heading">The List Of Movies That are Running In Theatres</h4>
+            <div class="wood-movies">
+                <div>
+                    <details>
+                        <summary class="wood-movies">RAMANA AVATHARA</summary>
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAFlgP8874qgMGjZrqUtTljvVSO1oaCDuk5aNmgeX_Eg&s" class="wood-movie-image" />
+                            <p class="wood-movie-details pt-2">Directed By: Vikas Pampapathi</p>
+                            <P class="wood-movie-details">Produced By: Amrej Suryavanshi</P>
+                            <p class="wood-movie-details">Cast:
+                                Rishi,<br />
+                                Praneetha Subhash, <br />
+                            </p>
+                            <p class="wood-movie-details">Rating: 7.9/10 -> IMDB</p>
+                            <button class="second-page-button" onclick="display('sectionktrailerone')">Trailer</button>
+                        </div>
+                    </details>
+                </div>
+
+                <div>
+                    <details>
+                        <summary class="wood-movies">FURIOSA: A MAD MAX SAGA </summary>
+                        <div>
+                            <img src="https://movieguide.b-cdn.net/wp-content/uploads/2024/05/furiosa_ver2.jpeg" class="wood-movie-image" />
+                            <p class="wood-movie-details pt-2">Directed By:George Miller</p>
+                            <P class="wood-movie-details">Produced By:
+                                George Miller
+                            </P>
+                            <p class="wood-movie-details">Cast:
+                                Anya Taylor-Joy,<br />
+                                Chris Hemsworth, <br />
+                                Tom Burke</p>
+                            <p class="wood-movie-details">Rating: 8.1/10 -> IMDB</p>
+                            <button class="second-page-button" onclick="display('sectionktrailertwo')">Trailer</button>
+                        </div>
+                    </details>
+                </div>
+
+
+                <button class="goback-btn" onclick="display('sectionchoose')">Go Back</button>
+            </div>
+        </div>
+
+
+    </div>
+    <div id="sectionktrailerone">
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/EAGyewsIIro" title="Ramana Avatara- Official MovieTrailer | Movie Releasing on May10th | Rishi, Pranitha, Shubra Aiyappa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <button class="trailer-page-btn" onclick="display('sectionkollywood')"></button>
+    </div>
+    <div id="sectionktrailertwo">
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/khvx2_d91n4" title="ஃப்யூரியோஸா: எ மேட் மேக்ஸ் சாகா (FURIOSA : A MAD MAX SAGA) - OFFICIAL TAMIL TRAILER 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <button class="trailer-page-btn" onclick="display('sectionkollywood')"></button>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>
